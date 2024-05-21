@@ -34,7 +34,7 @@ export default function TodoList() {
 
       <div className='todo-list'>
         <ol> 
-          {todoList.length > 0 ? todosRender() : noTodosRender()}
+          {todoList.length ? todosRender() : noTodosRender()}
         </ol>
       </div>
 
